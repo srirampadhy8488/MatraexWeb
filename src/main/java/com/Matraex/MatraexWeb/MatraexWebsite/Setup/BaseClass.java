@@ -10,12 +10,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public String baseurl= "http://matraexcoretech.com/matraex/";
-	public  Logger logger;
+	public   Logger logger;
 	
  
-	@BeforeClass
+	
  	  public  void setup() {
 			
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/Libraries/geckodriver");
@@ -25,8 +25,8 @@ public class BaseClass {
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
 			}
- 	  @AfterClass
- 	  public static void teardown() {
+ 	 
+ 	  public  void teardown() {
  		  driver.quit();
  	  }
  	  
