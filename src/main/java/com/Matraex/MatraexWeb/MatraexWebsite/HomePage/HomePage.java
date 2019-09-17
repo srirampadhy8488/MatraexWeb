@@ -8,7 +8,8 @@ public class HomePage {
 	WebElement getaquotation;
 	@FindBy(linkText="")
 	WebElement enquirynow;
-	//@FindBy()
+	@FindBy(xpath="")
+	WebElement enquirybuttom;
 	public void getaquote(String quote) {
 		getaquotation.click();
 	}
