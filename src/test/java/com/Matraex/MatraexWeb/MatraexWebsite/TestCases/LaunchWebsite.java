@@ -3,11 +3,14 @@ package com.Matraex.MatraexWeb.MatraexWebsite.TestCases;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.Matraex.MatraexWeb.MatraexWebsite.Setup.BaseClass;
 
-public class LaunchWebsite extends BaseClass {
-	@Test
+public class LaunchWebsite extends BaseClass 
+{
+	/*@Test
 	public void launch() {
 		driver.get(baseurl);
 		logger.info("Url opened");
@@ -19,11 +22,38 @@ public class LaunchWebsite extends BaseClass {
 			Assert.assertTrue(false);
 			logger.info("Title didn't matched");
 		}		
+	}*/
+	
+	@BeforeClass
+	public void launch() {
+	BaseClass cls=new BaseClass();
+	cls.setup();
 	}
-	@Test
+	
+	@AfterClass
+	public void Quit()
+	{
+		BaseClass cls=new BaseClass();
+		cls.teardown();
+	}
+	/*@Test
 	public void scrollDown() {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,1050)");
+	}*/
+	
+	@Test
+	public void LaunchingUrl()
+	{
+		BaseClass cls=new BaseClass();
+		cls.launch();
 	}
+	 @Test
+	 public void EnquireNow() 
+	 {
+		BaseClass cls=new BaseClass();
+		cls.EnquireNow();
+	 }
+	
 
 }
