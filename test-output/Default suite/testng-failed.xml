@@ -5,7 +5,9 @@
     <classes>
       <class name="com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite">
         <methods>
-          <include name="launch"/>
+          <include name="homePageMethods"/>
+          <include name="closeBrowser"/>
+          <include name="lunchBrowser"/>
         </methods>
       </class> <!-- com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite -->
     </classes>
