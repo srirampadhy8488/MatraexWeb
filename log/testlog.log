@@ -3,6 +3,7 @@
 2019-09-16 20:50:41,249 - BaseClass -INFO - Title matched
 2019-09-16 20:51:56,433 - BaseClass -INFO - url opened
 2019-09-16 20:51:56,444 - BaseClass -INFO - Title matched
+
 2019-09-17 15:44:26,090 - BaseClass -INFO - Url opened
 2019-09-17 15:44:26,118 - BaseClass -INFO - Title matched
 2019-09-17 15:48:03,665 - BaseClass -INFO - Url opened
@@ -13,3 +14,13 @@
 2019-09-17 15:50:19,975 - BaseClass -INFO - Title matched
 2019-09-17 15:53:13,737 - BaseClass -INFO - Url opened
 2019-09-17 15:53:13,761 - BaseClass -INFO - Title matched
+=======
+2019-09-17 17:34:02,189 - BaseClass -INFO - Url opened
+2019-09-17 17:34:02,207 - BaseClass -INFO - Title matched
+2019-09-17 17:36:43,001 - BaseClass -INFO - Url opened
+2019-09-17 17:36:43,012 - BaseClass -INFO - Title matched
+2019-09-17 17:37:28,728 - BaseClass -INFO - Url opened
+2019-09-17 17:37:28,741 - BaseClass -INFO - Title matched
+2019-09-17 17:38:22,014 - BaseClass -INFO - Url opened
+2019-09-17 17:38:22,078 - BaseClass -INFO - Title matched
+

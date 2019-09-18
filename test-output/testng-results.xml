@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
@@ -90,3 +91,29 @@ Session ID: 1d840b6d-09e2-4a1f-a04f-29d8adfea089
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14610" started-at="2019-09-17T17:38:12 IST" finished-at="2019-09-17T17:38:27 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14610" started-at="2019-09-17T17:38:12 IST" finished-at="2019-09-17T17:38:27 IST">
+      <class name="com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite@51288417]" name="lunchBrowser" is-config="true" duration-ms="3580" started-at="2019-09-17T17:38:12 IST" finished-at="2019-09-17T17:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite@51288417]" name="launchUrl" duration-ms="5891" started-at="2019-09-17T17:38:16 IST" finished-at="2019-09-17T17:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite@51288417]" name="closeBrowser" is-config="true" duration-ms="5085" started-at="2019-09-17T17:38:22 IST" finished-at="2019-09-17T17:38:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Matraex.MatraexWeb.MatraexWebsite.TestCases.LaunchWebsite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+

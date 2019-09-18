@@ -14,13 +14,14 @@ import org.testng.annotations.BeforeClass;
 
 
 public class BaseClass {
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public String baseurl= "http://matraexcoretech.com/matraex/";
-	public  Logger logger;
+	public   Logger logger;
 	
+
       //for launching the app
  	  public  void setup() 
- 	  {
+
 			
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/Libraries/geckodriver.exe");
 			driver= new FirefoxDriver();
@@ -29,8 +30,10 @@ public class BaseClass {
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
 			}
+
  	  //for quit the driver
  	  public static void teardown() {
+
  		  driver.quit();
  	  }
  	  
