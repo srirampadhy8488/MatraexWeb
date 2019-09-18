@@ -7,6 +7,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.Matraex.MatraexWeb.MatraexWebsite.Setup.BaseClass;
 
+
+public class LaunchWebsite extends BaseClass 
+{
+	/*@Test
+	public void launch() {
+=======
 public class LaunchWebsite extends BaseClass {
 	
 	@BeforeClass
@@ -16,6 +22,7 @@ public class LaunchWebsite extends BaseClass {
 	
 	@Test
 	public void launchUrl() {
+
 		driver.get(baseurl);
 		logger.info("Url opened");
 		if(driver.getTitle().equalsIgnoreCase("Matraex-web development company")) {
@@ -26,10 +33,25 @@ public class LaunchWebsite extends BaseClass {
 			Assert.assertTrue(false);
 			logger.info("Title didn't matched");
 		}		
+	}*/
+	
+	@BeforeClass
+	public void launch() {
+	BaseClass cls=new BaseClass();
+	cls.setup();
 	}
+
 	@AfterClass
 	public void closeBrowser() {
 		teardown();
+
 	}
+	 @Test
+	 public void EnquireNow() 
+	 {
+		BaseClass cls=new BaseClass();
+		cls.EnquireNow();
+	 }
+	
 
 }
